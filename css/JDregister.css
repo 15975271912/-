@@ -1,0 +1,306 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+/*1.=====网页顶部=====*/
+#top{
+    height: 120px;
+}
+
+#header #top{
+    height: 80px;
+}
+
+#header #top #div1{
+    position: absolute;
+    left: 300px;    
+    top: 50%;
+    margin: -30px;
+}
+#div1 img{
+    margin-left: 20px;
+}
+#div11{
+    position: absolute;
+    width: 350px;
+    left: 900px;
+    top: 60px;
+}
+#div11 img {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+/*登录调查页面位置布局、文字效果、图标位置作为背景图片布局*/
+#header #top #a1{
+    position: absolute;
+    right: 190px;
+    bottom: 10px;
+    font-size: 12px;
+    color: rgb(153,153,153);
+    padding-left: 23px;
+}
+/*登录调查页面在鼠标选中是时，添加下划线、字体变成红色*/
+#header #top #a1:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#header #bottom{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255,246,236);
+}
+
+#header #bottom font{
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(153,153,153);
+}
+
+#header #bottom font a{
+    color: rgb(38,38,38);
+}
+
+#header #bottom font a:hover{
+    text-decoration: underline;
+}
+
+#header #bottom img{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+}
+
+#content{
+    height: 500px;
+    background: #e93854;
+}
+
+#content #content_login{
+    height: 500px;
+    background: url(../images/register-201306.png) no-repeat fixed center;
+}
+
+#content #login_div{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    right: 188px;
+    top: 15px;
+}
+
+#content #login_div #div2{
+    height: 40px;
+    background-color: rgb(255,246,236);
+    line-height: 40px;
+}
+
+#content #login_div #div2 p{
+    font-size: 12px;
+    text-align: center;
+}
+
+#content #login_div #div2 p img{
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+}
+
+#content #login_div #div3{
+    height: 55px;
+    color: rgb(220,220,220,0.6);
+    font-weight: 100;
+}
+
+
+#content #login_div #div3 button{
+    width: 170px;
+    height: 100%;
+    color: rgb(83,83,83);
+    font-size: 19px;
+    background-color: white;
+    border: 0;
+    font-weight: 580;
+}
+
+#content #login_div #div3 button:focus{
+    outline: none;
+    color: rgb(215,36,50)
+}
+
+#content #login_div #div4{
+    height: 255px;
+    border-top: 1px solid rgba(220,220,220,0.6);
+    border-bottom: 1px solid rgba(220,220,220,0.6);
+}
+
+#content #login_div #div4 #username,#content #login_div #div4 #password{
+    height: 40px;
+    margin: 20px;
+    border: 1px solid rgba(220,220,220,1);
+}
+
+#content #login_div #div4 #password{
+    top: 20px;
+}
+
+#content #login_div #div4 .username-icon{
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-right: 1px solid rgba(220,220,220,1);
+    background: url(../images/register-201307.png) no-repeat 1px 1px;
+}
+#content #login_div #div4 .password-icon{
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-right: 1px solid rgba(220,220,220,1);
+    background: url(../images/register-201307.png) no-repeat -47px 1px;
+}
+
+#content #login_div #div4 input{
+    border: 0;
+    width: 260px;
+    height: 100%;
+    float: left;
+    padding-left: 7px ;
+    outline: none;
+}
+
+#content #login_div #div4 a{
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    font-size: 13px;
+    color: rgb(85,85,85);
+}
+
+#content #login_div #div4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#content #login_div #div4 button{
+    position: absolute;
+    border: 0;
+    left: 20px;
+    top: 180px;
+    width: 313px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+}
+
+#content #login_div #div4 button:focus{
+    outline: 0;
+}
+
+#content #login_div #div4 button:active{
+    border: 2px solid deeppink;
+    border-radius: 3px;
+}
+
+#content #login_div #div5{
+    height: 50px;
+    line-height: 50px;
+    color: rgb(153,153,153);
+    font-size: 12px;
+}
+#content #login_div #div5 .qq{
+    display: inline-block;
+    left: 43px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/register-201308.png) no-repeat 1px 1px;
+}
+#content #login_div #div5 .wechat{
+    display: inline-block;
+    left: 43px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/register-201308.png) no-repeat -19px 1px;
+}
+#content #login_div #div5 .a3{
+    display: inline-block;
+    left: 65px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/register-201307.png) no-repeat -102px -72px;
+}
+
+
+#content #login_div #div5 #a1{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 25px;
+}
+
+#content #login_div #div5 #a1:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#content #login_div #div5 #a2{
+    margin-left: 20px;
+    padding-left: 25px;
+    font-size: 10px;
+}
+
+#content #login_div #div5 #a2:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#content #login_div #div5 #a3{
+    position: absolute;
+    right: 10px;
+    padding-left: 25px;
+}
+
+#content #login_div #div5 #a3:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer div{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(153,153,153);
+    margin-top: 20px;
+}
+
+#footer div a{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+
+#footer p{
+    font-size: 10px;
+    margin-top: 16px;
+    color: rgb(153,153,153);
+}
+
+#footer div a:hover{
+    text-decoration: underline;
+    color: red;
+}

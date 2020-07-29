@@ -1,0 +1,94 @@
+
+.submenu{
+	display: none;
+	padding: 15px;
+	width: 850px;
+	left: 348px;
+	top: 270px;
+	position: absolute;
+	border: 1px solid #DDDDDD;
+	z-index: 4;
+	background: #FFFFFF;
+	box-shadow: 0 0 8px #575757;
+	-webkit-box-shadow:0 0 8px #575757;
+}
+
+.leftdiv{
+	float: left;
+	width: 600px;
+	margin: 5px;
+}
+.rightdiv{
+	float: left;
+	width: 150px;
+	margin: 5px;
+}
+
+.topwords {
+	margin-bottom: 15px;
+}
+
+.topwords dl{
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+	line-height: 17px;
+	background-color: black;	
+}
+
+.topwords dl:hover {
+	background-color: #C81623;
+}
+
+.topwords dl a{
+	color: #ffffff;
+}
+
+.topwords dl a:hover {
+	color: #ffffff;
+}
+
+.topwords dl i {
+	font-size: 14px;
+	color: #ffffff;
+	top: 2px;
+}
+
+.lihover{
+	background: #E3E4E5;
+	color: #C81623;
+	border-right: 0;
+	background-image: none;
+}
+
+.lihover .submenu{
+	display: block;
+}
+
+.divwords dl {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.divwords dl dt,dd{
+	display: inline-block;
+}
+
+.divwords dl dt a,i {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.divwords dl dd a{
+	font-size: 12px;
+	line-height: 15px;
+	color: #999;
+	margin-right: 10px;
+}
+
+.rightdiv img {
+	width: 190px;
+	height: 420px;
+}
